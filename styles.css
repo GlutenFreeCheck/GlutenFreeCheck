@@ -49,3 +49,20 @@ body {
     margin-top: 20px; /* Space between images and support text */
     text-align: center;
 }
+
+/* Style for the privacy policy link */
+.privacy-link {
+    margin-top: 20px; /* Space above the link */
+    text-align: center;
+}
+
+.privacy-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.privacy-link a:hover {
+    text-decoration: underline;
+}
+
