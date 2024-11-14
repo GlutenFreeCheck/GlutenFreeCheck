@@ -1,0 +1,43 @@
+/* Apply a background color that matches the app theme */
+body {
+    background-color: #fdeac7; /* Light beige color to match the theme */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Modern, roundish font */
+}
+
+/* Style for the title */
+.title {
+    color: white;
+    font-size: 3em; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 40px; /* Increased space between title and images */
+    text-align: center;
+}
+
+/* Center the images with space between them */
+.container {
+    display: flex;
+    gap: 20px; /* Adjust spacing between images as needed */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style individual images */
+.app-image {
+    max-width: 300px; /* Adjust width as desired */
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better appearance */
+    border-radius: 8px; /* Rounded corners for a soft look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect: scale up and increase shadow */
+.app-image:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
